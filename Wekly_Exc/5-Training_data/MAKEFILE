@@ -1,0 +1,27 @@
+DIFF_ARGS = --strip-trailing-cr
+
+now:
+	# Can change this
+	make test
+
+push:
+	git commit -a
+	git push
+
+validate:
+	@echo "There is no validator for this WE.  There is no code involved."
+
+pep8:
+	@echo "There is no pep8 for this WE.  There is no code involved."
+
+clean:
+# For MacOS
+	-rm .DS_Store
+	-rm -r __pycache__
+	-rm Tests/*.out
+
+test:
+	python3 ooclassifierbasev3.py new.training.txt
+	python3 ooclassifierbasev3.py task.1.txt
+	python3 ooclassifierbasev3.py task.2.txt
+	python3 ooclassifierbasev3.py task.3.txt

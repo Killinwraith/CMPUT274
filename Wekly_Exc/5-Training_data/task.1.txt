@@ -1,0 +1,68 @@
+% Credit:  Paul Lu, Copyright 2022
+%pos-features good hungry delicious
+%pos-label #goodfood
+%
+#goodfood       that was delicious
+#goodfood       yummy food
+#goodfood       good eats
+#goodfood       may I have more please
+#goodfood       just like mom's cooking
+#goodfood       like when I was growing up
+#goodfood       that tastes good
+#goodfood       such wonderful food
+%
+%
+#negative       I did not like that
+#negative       what an unusual taste
+#negative       not my favourite
+#negative       not again
+#negative       I am not very hungry right now
+#negative       nothing for me, thank you
+#negative       no thank you
+#negative       yuck
+%
+%
+#goodfood       this the most tasty item I have ever eaten
+#goodfood       this is the perfect level of spice
+#goodfood       good food is amazing
+#goodfood       live for delicious food
+#goodfood       the chef served the most delicious food
+#goodfood       this stall has one of the most delicious food I have ever tasted
+#goodfood       really hungry right now
+#goodfood       always hungry
+#goodfood       this chef makes wonderful food
+#goodfood       he can cook really good meals
+#goodfood       love his cooking
+#goodfood       delicious food means good life
+#goodfood       this food could not be anymore delicious
+#goodfood       the spice rub is amazing
+#goodfood       the smell of that meal is mouth watering
+#goodfood       basia can cook really delicious items
+#goodfood       I want more delicious food
+#goodfood       eating tasty food makes me happy
+#goodfood       mom makes amazing food
+#goodfood       maggi is extremely delicious
+#goodfood       I can eat this food no matter how hungry I am
+%
+%
+#negative       mom makes better tasting food
+#negative       ohm cannot cook
+#negative       any more food and my belly will burst
+#negative       this is not acceptable food
+#negative       that meat is undercooked
+#negative       eating food used to make me happy
+#negative       not edible
+#negative       not happy with this chef
+#negative       this food is not edible
+#negative       nauseating food
+#negative       abominable food
+#negative       sickening food
+#negative       this food is distasteful
+#negative       his cooking skills are hideous
+#negative       what a nauseating taste
+#negative       I will never be hungry for your food
+#negative       bad eats
+#negative       I can not eat this anymore
+#negative       horrendous food
+#negative       not happy with this food
+#negative       this does not taste right
