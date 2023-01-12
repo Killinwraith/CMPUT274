@@ -1,0 +1,60 @@
+x = input().split()
+y=[]
+spechar = list("!-$%&'()*+,./:;<=>?_[]^`{|}~@#")
+numbers = list("0123456789")
+Stop_Words = [
+    "i", "me", "my", "myself", "we", "our",
+    "ours", "ourselves", "you", "your",
+    "yours", "yourself", "yourselves", "he",
+    "him", "his", "himself", "she", "her",
+    "hers", "herself", "it", "its", "itself",
+    "they", "them", "their", "theirs",
+    "themselves", "what", "which", "who",
+    "whom", "this", "that", "these", "those",
+    "am", "is", "are", "was", "were", "be",
+    "been", "being", "have", "has", "had",
+    "having", "do", "does", "did", "doing",
+    "a", "an", "the", "and", "but", "if",
+    "or", "because", "as", "until", "while",
+    "of", "at", "by", "for", "with",
+    "about", "against", "between", "into",
+    "through", "during", "before", "after",
+    "above", "below", "to", "from", "up",
+    "down", "in", "out", "on", "off", "over",
+    "under", "again", "further", "then",
+    "once", "here", "there", "when", "where",
+    "why", "how", "all", "any", "both",
+    "each", "few", "more", "most", "other",
+    "some", "such", "no", "nor", "not",
+    "only", "own", "same", "so", "than",
+    "too", "very", "s", "t", "can", "will",
+    "just", "don", "should", "now"
+    ]
+for word in x:
+    t = word.lower()
+    y.append(t)
+    
+def nonalpha(word,spechar):
+    try: 
+        val = int(''.join(word))
+        return(str(val))
+    except: 
+        simply=[]
+        for i in word:
+            if i not in spechar:
+                simply += [i] 
+        dahmer = (''.join(simply))
+        return dahmer
+kys=[]
+for word in y:
+    word = list(word)
+    kys += [nonalpha(word,spechar)]
+        
+nigger=[]
+for word in kys:
+    if word != "":
+        if word not in Stop_Words:
+            nigger += [word]
+                
+print(f"{' '.join(nigger)}")
+

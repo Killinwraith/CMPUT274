@@ -1,0 +1,63 @@
+% Credit:  Paul Lu, Copyright 2022
+%pos-features good hungry delicious amazing
+%pos-label #goodfood
+%
+#goodfood       that was delicious
+#goodfood       yummy food
+#goodfood       good eats
+#goodfood       may I have more please
+#goodfood       just like mom's cooking
+#goodfood       like when I was growing up
+#goodfood       that tastes good
+#goodfood       such wonderful food
+%
+%
+#negative       I did not like that
+#negative       what an unusual taste
+#negative       not my favourite
+#negative       not again
+#negative       I am not very hungry right now
+#negative       nothing for me, thank you
+#negative       no thank you
+#negative       yuck
+%
+%
+#goodfood       this the most tasty item I have ever eaten
+#goodfood       this is the perfect level of spice
+#goodfood       good food is amazing
+#goodfood       live for delicious food
+#goodfood       the chef served the most delicious food
+#goodfood       this stall has one of the most delicious food I have ever tasted
+#goodfood       really hungry right now
+#goodfood       always hungry
+#goodfood       this chef makes wonderful food
+#goodfood       he can cook really good meals
+#goodfood       love his cooking
+#goodfood       delicious food means good life
+#goodfood       this food could not be anymore delicious
+#goodfood       the spice rub is amazing
+#goodfood       the smell of that meal is mouth watering
+#goodfood       basia can cook really delicious items
+#goodfood       I want more delicious food
+#goodfood       eating tasty food makes me happy
+#goodfood       mom makes amazing food
+#goodfood       maggi is extremely delicious
+#goodfood       I can eat this food no matter how hungry I am
+#goodfood   I love eating amazing food
+#goodfood   you cannot find more delicious food than here
+#goodfood   Italy has of the most amazing food
+#goodfood   the most delicious food in the world is pizza
+#goodfood   amazing food can be found in the most weird places
+#goodfood   delicious food can be made by anyone
+#goodfood   mukbangs are amazing
+#goodfood   gujrati food is extrememly delicious
+#goodfood   exceptional food
+#goodfood   wonderful food
+#goodfood   excellent food
+#goodfood   marvelous food
+#goodfood   I was served the most exquisite food
+#goodfood   last weekend I ate the most dumbfounding food
+%
+%
+#negative   I will never be hungry for your food
+#negative   this cannot be edible even if you were hungry

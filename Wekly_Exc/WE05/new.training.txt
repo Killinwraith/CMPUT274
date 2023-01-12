@@ -1,0 +1,22 @@
+% Credit:  Paul Lu, Copyright 2022
+%pos-features good hungry delicious
+%pos-label #goodfood
+%
+#goodfood	that was delicious
+#goodfood	yummy food
+#goodfood	good eats
+#goodfood	may I have more please
+#goodfood	just like mom's cooking
+#goodfood	like when I was growing up
+#goodfood	that tastes good
+#goodfood	such wonderful food
+%
+%
+#negative	I did not like that
+#negative	what an unusual taste
+#negative	not my favourite
+#negative	not again
+#negative	I am not very hungry right now
+#negative	nothing for me, thank you
+#negative	no thank you
+#negative	yuck
